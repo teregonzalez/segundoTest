@@ -17,6 +17,7 @@ describe("Funcion sumar", () => {
     });
 
     it("sumar a+1 va a arrojar error", () => {
+        //arrange
         const operador1 = 'a';
         const operador2 = 1;
         expect(() => sumar(operador1, operador2)).toThrow();
@@ -35,7 +36,15 @@ describe("Funcion sumar", () => {
 
 describe("Funcion restar", () => {
     it("restar 2-1 va a retornar 1", () => {
+        //arrange
+        const operador1 = 2;
+        const operador2 = 1;
+
+        //act
+
         const resultado = restar(2, 1);
+
+        //assert
         expect(resultado).toBe(1)
     });
 
