@@ -21,13 +21,23 @@ describe("Funcion sumar", () => {
         //arrange
         const operador1 = 'a';
         const operador2 = 1;
-        expect(() => sumar(operador1, operador2)).toThrow();
+
+        //act
+        const expectedResult = () => sumar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
 
     it("sumar 1+a va a arrojar error", () => {
         const operador1 = 1;
         const operador2 = 'a';
-        expect(() => sumar(operador1, operador2)).toThrow();
+        
+        //act
+        const expectedResult = () => sumar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     });
 
     it("Sumar sin parametros va a arrojar un error", () => {
@@ -50,15 +60,27 @@ describe("Funcion restar", () => {
     });
 
     it("restar a-1 va a arrojar error", () => {
+        //arrange
         const operador1 = 'a';
         const operador2 = 1;
-        expect(() => restar(operador1, operador2)).toThrow();
+
+        //act
+        const expectedResult = () => restar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     });
 
     it("Restar 1-a va a arrojar error", () => {
+        //arrange
         const operador1 = 1;
         const operador2 = 'a';
-        expect(() => restar(operador1, operador2)).toThrow();
+
+        //act
+        const expectedResult = () => restar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
 
     it("Restar sin parametros va a arrojar un error", () => {
@@ -93,15 +115,27 @@ describe("Funcion multiplicar", () => {
     })
 
     it("Multiplicar a por 1 va a arrojar un error", () => {
+        //arrange
         const operador1 = 'a';
         const operador2 = 1;
-        expect(() => multiplicar(operador1, operador2)).toThrow("Error");
+        
+        //act
+        const expectedResult = () => multiplicar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
 
     it("Multiplicar 1 por a va a arrojar un error", () => {
+        //arrange
         const operador1 = 1;
         const operador2 = 'a';
-        expect(() => multiplicar(operador1, operador2)).toThrow("Error");
+        
+        //act
+        const expectedResult = () => multiplicar(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
 
     it("Multiplicar sin parametros va a arrojar un error", () => {
@@ -124,27 +158,50 @@ describe("Funcion dividir", () => {
     })
 
     it("Divivir a por 1 va a retornar un error", () => {
+        //arrange
         const operador1 = 'a';
         const operador2 = 1;
-        expect(() => dividir(operador1, operador2)).toThrow("Error");
+        
+        //act
+        const expectedResult = () => dividir(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
     
     it("Divivir 1 por a va a retornar un error", () => {
+        //arrange
         const operador1 = 1;
         const operador2 = 'a';
-        expect(() => dividir(operador1, operador2)).toThrow("Error");
+
+        //act
+        const expectedResult = () => dividir(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     })
 
     it("Divivir 0 por 1 va a retornar un 0", () => {
+        //arrange
         const operador1 = 0;
         const operador2 = 1;
+
+        //act
         const resultado = dividir(operador1, operador2)
+
+        //assert
         expect(resultado).toBe(0);
     })
     it("Divivir 1 por 0 va a retornar un error", () => {
+        //arrange
         const operador1 = 1;
         const operador2 = 0;
-        expect(() => dividir(operador1, operador2)).toThrow("Error");
+
+        //act
+        const expectedResult = () => dividir(operador1, operador2);
+
+        //assert
+        expect(expectedResult).toThrowError();
     });
 });
 
@@ -176,8 +233,10 @@ describe ("Función isPalindrome", () => {
         const someString = 4;
 
         //act
+        const expectedResult = () => isPalindrome(someString);
+
         //assert
-        expect(() => isPalindrome(someString)).toThrow("Error");
+        expect(expectedResult).toThrowError();
     })
 
     it("La función sin parametros va a arrojar un error", () => {

@@ -1,17 +1,8 @@
 const isPalindrome = (someString) => {
-    if(typeof operador1 != "string" ){
+    if(typeof someString !== "string" ){
         throw new Error("Error");
     }
-    const someArray = someString.split("").reverse()
-    console.log(someArray)
-    const reverserString = someArray.join("")
-
-    if(someString === reverserString){
-        return true
-    }
-    else{
-        return false
-    }
+    return someString.split("").reverse().join("") === someString
 }
 
 module.exports = {
