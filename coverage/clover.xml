@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644242164297" clover="3.2.0">
+  <project timestamp="1644242164297" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4" elements="50" coveredelements="50" complexity="0" loc="28" ncloc="28" packages="1" files="4" classes="4"/>
+    <file name="dividir.js" path="/Users/teresagonzalez/Documents/segundoTest/src/dividir.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="multiplicar.js" path="/Users/teresagonzalez/Documents/segundoTest/src/multiplicar.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="restar.js" path="/Users/teresagonzalez/Documents/segundoTest/src/restar.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="sumar.js" path="/Users/teresagonzalez/Documents/segundoTest/src/sumar.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
